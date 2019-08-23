@@ -5,7 +5,7 @@ func main(){
 
 	// fmt.Println(add(5,6))
 	region,continent:=localtion("znq")
-	fmt.Printf("znq live in %s,%s",region,continent)
+	fmt.Printf("znq live in %s,%s\n",region,continent)
 	region1,continent1:=localtion1("znq","LA")
 	fmt.Printf("znq live in %s,%s",region1,continent1)
 }
@@ -28,12 +28,13 @@ func localtion(city string)(string,string){
 	return region,continent
 }
 //functions can return multiple “result parameters”, not just a single value.
+//return multiple param
 func localtion1(name, city string) (region, continent string) {
 	switch city {
 	case "New York", "LA", "Chicago":
-		continent = "North America"
+		region,continent ="California", "North America"
 	default:
-		continent = "Unknown"
+		region,continent = "Unknown","Unknown"
 	}
 	return
 }
