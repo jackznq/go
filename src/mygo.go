@@ -12,7 +12,7 @@ func main(){
 	name = "znq"
 	age =28
 	location = "hangzhou"
-	fmt.Printf(name,age,location):
-fmt.Printf("hello.world")
+	fmt.Printf(name,age,location)
+	fmt.Printf("hello.world")
 
 }
