@@ -1,20 +1,19 @@
 package main
+
 import (
-  "fmt"
+	"fmt"
 )
 
-func main(){
+func main() {
 	var (
-		name string
-		age int
+		name     string
+		age      int
 		location string
 	)
 	name = "znq"
-	age =28
+	age = 28
 	location = "hangzhou"
-	fmt.Printf(name,age,location)
+	fmt.Printf(name, age, location)
 	fmt.Printf("hello.world")
-	
-	
 
 }
