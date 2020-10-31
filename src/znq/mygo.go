@@ -1,4 +1,4 @@
-package main
+package znq
 
 import (
 	"fmt"

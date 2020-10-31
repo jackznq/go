@@ -1,12 +1,12 @@
 package main
 
 import (
-	"znq"
 	"fmt"
+	"znq"
 )
 
 func main() {
 
-	a, b := znq.Localtion(11)
+	a, b := znq.Localtion("znq")
 	fmt.Println(a, b)
 }
